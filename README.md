@@ -2,6 +2,7 @@
 tundide sissekanded, reflektsioonid ja konspekt
 
 giti põhikäsud
-git add
-git commit
-git push
+git add .  
+2 tühikut teeb, et on järgmisel real  
+git commit -m " kommentaar"  
+git push  
