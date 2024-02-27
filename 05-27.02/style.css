@@ -8,6 +8,7 @@ main {
     background-color: rgb(177, 130, 212);
     max-width: 1200px;
     width: 100%;
+    padding: 3rem;
 }
 .card-row {
     display: flex;
