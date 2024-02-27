@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main {
+    background-color: rgb(177, 130, 212);
+    max-width: 1200px;
+    width: 100%;
+}
+.card-row {
+    display: flex;
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+}
+.hero-content {
+    width: 75ch;
+}
