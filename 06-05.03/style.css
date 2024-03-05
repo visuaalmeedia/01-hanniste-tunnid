@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+main {
+    background-color: rgb(177, 130, 212);
+    max-width: 60rem;
+    width: 100%;
+    padding: 3rem;
+}
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.hero-container {
+    display: flex;
+    justify-content: center;
+}
+.hero-content {
+    width: 75ch;
+}
+.card {
+    min-width: 18rem;
+    flex: 1;
+    padding: 0.5rem;
+}
+.img_up {
+    width: 100%;
+}
+.img_down {
+    width: 100%;
+}
