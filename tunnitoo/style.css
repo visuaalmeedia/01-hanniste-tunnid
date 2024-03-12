@@ -4,14 +4,19 @@ body {
     align-items: center;
     height: 100vh;
 }
+h1 {
+    color: white;
+}
+.colour {
+    color: white;
+}
 main {
     background-color: rgb(177, 130, 212);
     max-width: 60rem;
     width: 100%;
-    padding: 3rem;
+    padding: 5rem;
 }
 .card-row {
-    background-color: rgb(123, 202, 236);
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -20,17 +25,18 @@ main {
     display: flex;
     justify-content: center;
     background-image: url(pilt-02.jpg);
+    background-size: cover;
+    padding: 3rem;
 }
 .hero-content {
     width: 75ch;
 }
 .card {
+    background-color: rgb(149, 76, 168);
     min-width: 18rem;
     flex: 1;
     padding: 0.5rem;
-}
-.img_up {
-    width: 100%;
+    padding-top: 1.5rem;
 }
 .img_down {
     width: 100%;
