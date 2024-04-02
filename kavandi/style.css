@@ -4,15 +4,30 @@ body {
     background-size: 100% 100%;
     min-height: 100vh;
 }
+h1 {
+    font-size: 160px;
+}
+p {
+    font-size: 20px;
+}
 .container {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 30px;
+    grid-template-columns: 70% 30%;
 }
 .text {
     width: 80ch;
 }
 .padding {
     padding: 130px;
+}
+.vertical-centre {
+    position: absolute;
+    top: 13%;
+    left: 65%;
+}
+.frame {
+    border: 40px solid rgba(148, 75, 167, 1);
+    background: rgba(148, 75, 167, 1);
+    border-radius: 27px;
 }
