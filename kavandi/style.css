@@ -5,9 +5,11 @@ body {
     min-height: 100vh;
 }
 h1 {
+    font-family: ewert;
     font-size: 160px;
 }
 p {
+    font-family: aref ruqaa ink;
     font-size: 20px;
 }
 .container {
@@ -43,4 +45,16 @@ p {
 .map {
     height: 20px;
     width: 22px;
+}
+
+.suva {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+@media (max-width: 800px) {
+    .phone {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
