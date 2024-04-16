@@ -8,32 +8,51 @@ h1 {
     font-family: ewert;
     font-size: 160px;
     font-style: bold;
+    margin: 0;
 }
 p {
     font-family: aref ruqaa ink;
     font-size: 20px;
 }
-.container {
+.padding {
+    padding: 50px;
+}
+.parent {
     display: grid;
-    align-items: center;
     grid-template-columns: 70% 30%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.div1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+.div3 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url(picture.jpg);
+}
+.div4 {
+    grid-area: 2 / 2 / 3 / 3;
 }
 .text {
     width: 80ch;
 }
-.padding {
-    padding: 130px;
-}
-.vertical-centre {
+
+/*.vertical-centre {
     position: absolute;
     top: 13%;
     left: 65%;
 }
-.frame {
+*/
+/*.frame {
     border: 40px solid rgba(148, 75, 167, 1);
     background: rgba(148, 75, 167, 1);
     border-radius: 27px;
 }
+*/
 .button {
     background-color: rgba(148, 211, 189, 1);
     border-radius: 12px;
@@ -51,7 +70,7 @@ p {
     body {
         background-image: url(phone.jpg);
     }
-    .container {
+    .parent {
         grid-template-columns: 1fr;
     }
     .phone_font_h1 {
@@ -59,8 +78,5 @@ p {
     }
     .phone_text {
         width: 50ch;
-    }
-    .img {
-        width: 391px;
     }
 }
