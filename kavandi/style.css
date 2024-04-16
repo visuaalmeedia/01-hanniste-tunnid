@@ -7,6 +7,7 @@ body {
 h1 {
     font-family: ewert;
     font-size: 160px;
+    font-style: bold;
 }
 p {
     font-family: aref ruqaa ink;
@@ -46,15 +47,20 @@ p {
     height: 20px;
     width: 22px;
 }
-
-.suva {
-    width: 100px;
-    height: 100px;
-    background-color: blueviolet;
-}
 @media (max-width: 800px) {
-    .phone {
-        display: flex;
-        flex-wrap: wrap;
+    body {
+        background-image: url(phone.jpg);
+    }
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .phone_font_h1 {
+        font-size: 83px;
+    }
+    .phone_text {
+        width: 50ch;
+    }
+    .img {
+        width: 391px;
     }
 }
